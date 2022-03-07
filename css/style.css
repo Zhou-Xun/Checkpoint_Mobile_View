@@ -1,5 +1,8 @@
 body {
-    background-color: rgba(0,0,0,1);
+    background-image: url("../images/forest.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #000000;
     font-weight:600;
     color: white;
     font-family: 'Didact Gothic', sans-serif;

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHW1CLTTN0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SHW1CLTTN0');
+  </script>
   <meta charset="UTF-8">
   <title>Horror Movie Directors</title>
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
@@ -25,17 +34,17 @@
 
 <form action="https://formspree.io/f/xdobdwya" method="POST">
   <div class="input-container ic1">
-    <input id="firstname" class="input" type="text" placeholder=" " />
+    <input id="firstname" class="input" type="text" placeholder=" " name="first_name"/>
     <div class="cut"></div>
     <label for="firstname" class="placeholder">First name</label>
   </div>
   <div class="input-container ic2">
-    <input id="lastname" class="input" type="text" placeholder=" " />
+    <input id="lastname" class="input" type="text" placeholder=" " name="last_name"/>
     <div class="cut"></div>
     <label for="lastname" class="placeholder">Last name</label>
   </div>
   <div class="input-container ic2">
-    <input id="email" class="input" type="text" placeholder=" " />
+    <input id="email" class="input" type="text" placeholder=" " name="email" />
     <div class="cut cut-short"></div>
     <label for="email" class="placeholder">Email</label>
   </div>

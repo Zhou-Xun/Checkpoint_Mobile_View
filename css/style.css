@@ -159,3 +159,8 @@ img:hover{
     filter: grayscale(50%);
     border: dashed;
 }
+
+form {
+    margin: 20px auto;
+    width:250px;
+}

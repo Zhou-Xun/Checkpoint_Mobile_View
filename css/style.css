@@ -8,6 +8,16 @@ body {
     font-family: 'Didact Gothic', sans-serif;
 }
 
+.skip{
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    from{width: 25px; opacity: 0;}
+    to{width: 475px; opacity: 1;}
+}
+
 h4 {
     margin: 0 0 10px 0;
     text-align:center;

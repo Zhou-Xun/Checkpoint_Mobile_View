@@ -14,8 +14,8 @@ body {
 }
 
 @keyframes mymove {
-    from{width: 25px; opacity: 0;}
-    to{width: 475px; opacity: 1;}
+    from{width: 25px; opacity: 0; color: darkgrey}
+    to{width: 475px; opacity: 1; color: white}
 }
 
 h4 {

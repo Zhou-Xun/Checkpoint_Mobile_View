@@ -174,3 +174,9 @@ form {
     margin: 20px auto;
     width:250px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .skip{
+        animation: none;
+    }
+}

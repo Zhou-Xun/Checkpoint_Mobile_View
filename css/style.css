@@ -41,6 +41,10 @@ nav {
     text-align:center;
 }
 
+.active-page {
+    border: 1px white dashed;
+}
+
 ul {
     display: flex;
     justify-content: center;
@@ -168,6 +172,10 @@ ul {
 
 .first-section .review span {
     color: #a9a9a9;
+}
+
+.second-section .box:nth-of-type(even) img{
+    border: 5px solid maroon;
 }
 
 img:hover{
